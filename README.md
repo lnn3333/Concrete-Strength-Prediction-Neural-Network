@@ -1,7 +1,7 @@
 # Concrete Strength Prediction Project
 This project aims to predict the concrete strength using a neural network built with the Keras library. The project is divided into four parts, each focusing on different aspects of model training and evaluation.
 
-## Part A: Build a Baseline Model (5 marks)
+## Part A: Build a Baseline Model 
 ### Requirements
 Keras
 Scikit-learn
@@ -20,7 +20,7 @@ In this part, we build a baseline neural network model with the following specif
 4. **Repetition:** Repeat steps 1-3, 50 times, to create a list of 50 mean squared errors.
 5. **Reporting:** Report the mean and the standard deviation of the mean squared errors.
 
-## Part B: Normalize the Data (5 marks)
+## Part B: Normalize the Data 
 ### Description
 Repeat Part A but using a normalized version of the data. Normalization involves subtracting the mean and dividing by the standard deviation for each predictor.
 
@@ -28,7 +28,7 @@ Repeat Part A but using a normalized version of the data. Normalization involves
 1. Normalize the data.
 2. Repeat steps 1-5 from Part A.
    
-## Part C: Increase the Number of Epochs (5 marks)
+## Part C: Increase the Number of Epochs 
 ### Description
 Repeat Part B but train the model using 100 epochs.
 
@@ -37,7 +37,7 @@ Repeat Part B but train the model using 100 epochs.
 2. Train the model with 100 epochs.
 3. Repeat steps 1-5 from Part A.
    
-## Part D: Increase the Number of Hidden Layers (5 marks)
+## Part D: Increase the Number of Hidden Layers 
 ### Description
 Repeat Part B but use a neural network with three hidden layers, each with 10 nodes and a ReLU activation function.
 
