@@ -38,6 +38,7 @@ The original source of the data is the Australian Government's Bureau of Meteoro
 
 ### Variable information
 **Predictor Variables**
+<li>
 Date: The date of observation
 Location: The name of the location of the observation
 MinTemp: The minimum temperature in degrees Celsius
@@ -60,7 +61,7 @@ Cloud3pm: The fraction of sky obscured by cloud at 3 pm
 Temp9am: The temperature (degrees Celsius) at 9 am
 Temp3pm: The temperature (degrees Celsius) at 3 pm
 RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9 am exceeds 1 mm, otherwise 0
-
+</li>
 **Target Variable**: 
 - RainTomorrow
 * Boolean: 1 if precipitation (mm) in the 24 hours to 9 am exceeds 1 mm, otherwise 0
