@@ -16,7 +16,5 @@ matplotlib
 - Define Softmax, Criterion Function, Optimizer, and Train the Model
 - Plot Cost and Accuracy 
 ## Credits
-
-About the Authors
-<a href="https://www.linkedin.com/in/joseph-s-50398b136/">Joseph Santarcangelo</a> has a PhD in Electrical Engineering, his research focused on using machine learning, signal processing, and computer vision to determine how videos impact human cognition. Joseph has been working for IBM since he completed his PhD.
-
+This project was inspired by and uses materials from the IBM course "Deep Learning with PyTorch".
+The Author: Joseph Santarcangelo
