@@ -38,30 +38,30 @@ The original source of the data is the Australian Government's Bureau of Meteoro
 
 ### Variable information
 **Predictor Variables**
-<li>
-Date: The date of observation
-Location: The name of the location of the observation
-MinTemp: The minimum temperature in degrees Celsius
-MaxTemp: The maximum temperature in degrees Celsius
-Rainfall: The amount of rainfall recorded for the day in mm
-Evaporation: The so-called Class A pan evaporation (mm) in the 24 hours to 9 am
-Sunshine: The number of hours of bright sunshine in the day
-WindGustDir: The direction of the strongest wind gust in the 24 hours to midnight
-WindGustSpeed: The speed (km/h) of the strongest wind gust in the 24 hours to midnight
-WindDir9am: The direction of the wind at 9 am
-WindDir3pm: The direction of the wind at 3 pm
-WindSpeed9am: The speed (km/h) of the wind at 9 am
-WindSpeed3pm: The speed (km/h) of the wind at 3 pm
-Humidity9am: The relative humidity (percent) at 9 am
-Humidity3pm: The relative humidity (percent) at 3 pm
-Pressure9am: The atmospheric pressure (hPa) at 9 am
-Pressure3pm: The atmospheric pressure (hPa) at 3 pm
-Cloud9am: The fraction of sky obscured by cloud at 9 am
-Cloud3pm: The fraction of sky obscured by cloud at 3 pm
-Temp9am: The temperature (degrees Celsius) at 9 am
-Temp3pm: The temperature (degrees Celsius) at 3 pm
-RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9 am exceeds 1 mm, otherwise 0
-</li>
+
+- Date: The date of observation
+- Location: The name of the location of the observation
+- MinTemp: The minimum temperature in degrees Celsius
+- MaxTemp: The maximum temperature in degrees Celsius
+- Rainfall: The amount of rainfall recorded for the day in mm
+- Evaporation: The so-called Class A pan evaporation (mm) in the 24 hours to 9 am
+- Sunshine: The number of hours of bright sunshine in the day
+- WindGustDir: The direction of the strongest wind gust in the 24 hours to midnight
+- WindGustSpeed: The speed (km/h) of the strongest wind gust in the 24 hours to midnight
+- WindDir9am: The direction of the wind at 9 am
+- WindDir3pm: The direction of the wind at 3 pm
+- WindSpeed9am: The speed (km/h) of the wind at 9 am
+- WindSpeed3pm: The speed (km/h) of the wind at 3 pm
+- Humidity9am: The relative humidity (percent) at 9 am
+- Pressure9am: The atmospheric pressure (hPa) at 9 am
+- Humidity3pm: The relative humidity (percent) at 3 pm
+- Pressure3pm: The atmospheric pressure (hPa) at 3 pm
+- Cloud9am: The fraction of sky obscured by cloud at 9 am
+- Cloud3pm: The fraction of sky obscured by cloud at 3 pm
+- Temp9am: The temperature (degrees Celsius) at 9 am
+- Temp3pm: The temperature (degrees Celsius) at 3 pm
+- RainToday: Boolean: 1 if precipitation (mm) in the 24 hours to 9 am exceeds 1 mm, otherwise 0
+
 **Target Variable**: 
 - RainTomorrow
 * Boolean: 1 if precipitation (mm) in the 24 hours to 9 am exceeds 1 mm, otherwise 0
